@@ -1,0 +1,119 @@
+body{
+    color: white;
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+}
+
+header{
+    background-color: #21c08b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.header-img{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 200px;
+}
+
+.main-register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+    min-height: calc(100vh - 200px);
+    background: linear-gradient(#21c08b, #AB88FF);
+}
+
+.register-conteiner{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: rgba(225, 225, 225, .1);
+    border: 2px white solid;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, .6) 0px 5px 15px;
+    padding: 60px 68px 40px;
+    min-height: 700px;
+    min-width: 400px;
+}
+
+.register-form{
+    display: flex;
+    flex-direction: column;
+    /* height: 300px; */
+}
+
+.input{
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid white;
+    font: 'Mulish', sans-serif;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    outline: none;
+    height: 50px;
+}
+
+::placeholder{
+    font: 'Mulish', sans-serif;
+    color: white;
+}
+
+.button{
+    background-color: rgba(225, 225, 225, 0.4);
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Mulish', sans-serif;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 10px 0;
+    outline: none;
+}
+
+.label{
+    background-color: transparent;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Mulish', sans-serif;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 10px 0;
+    outline: none;
+}
+
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100px;
+    width: 100%;
+    background-color:  #AB88FF;
+}
+
+.footer a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}

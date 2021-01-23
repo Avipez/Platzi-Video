@@ -35,6 +35,7 @@ header{
     background-color: rgba(225, 225, 225, .1);
     border: 2px white solid;
     border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, .6) 0px 5px 15px;
     padding: 60px 68px 40px;
     min-height: 700px;
     min-width: 400px;
