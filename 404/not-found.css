@@ -1,0 +1,78 @@
+body{
+    color: white;
+    margin: 0;
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header{
+    background-color: #21c08b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.header-img{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 200px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100vh - 180px);
+    padding: 0 30px;
+    background: linear-gradient(#21c08b, #AB88FF);
+}
+
+
+.main-conteiner h1{
+    margin: 50px 0;
+    font-size: 100px;
+    animation-duration: 2s;
+    animation-name: pulse;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse{
+    15%{
+        transform: scale(1.2);
+        color: orange;
+        text-shadow: 005px orange;
+    }
+    25%{
+        transform: scale(1.5);
+        color: red;
+        text-shadow: 0010px red;
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100px;
+    width: 100%;
+    background-color:  #AB88FF;
+}
+
+.footer a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
